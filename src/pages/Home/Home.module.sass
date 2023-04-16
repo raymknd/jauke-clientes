@@ -1,0 +1,37 @@
+.root
+    display: flex
+    flex-direction: column
+    gap: 2.5rem
+    max-width: 1100px
+    margin: 0 auto
+    overflow: hidden
+    min-height: 100vh
+    .hero
+        margin-top: 15vh
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        .header
+            display: flex
+            flex-direction: column
+            position: relative
+            z-index: 1
+            text-align: center
+            h1
+                font-size: 32px
+                font-family: "League Spartan", sans-serif
+                span.gradient
+                    // background: red
+                    // background: linear-gradient(to right, #dc0000 0%, #6600ff 100%)
+                    // -webkit-background-clip: text
+                    // -webkit-text-fill-color: transparent
+            h2
+                font-size: 16px
+                color: rgba(255, 255, 255, 0.75)
+                font-weight: 400
+    .list
+        display: flex
+        flex-direction: column
+        // gap: 1rem
+        padding: 0 25px
